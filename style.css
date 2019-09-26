@@ -1,0 +1,35 @@
+#name {
+    background-color: navy;
+    color: white;
+    text-align: center;
+  }
+
+#work {
+    /* width: 60%; */
+    margin:auto;
+}
+
+ /*
+#image {
+    display:flex;
+    align-self:flex-start;
+  }
+#work {
+    display:flex;
+    align-self:flex-end;
+}
+*/
+#image{
+    margin:auto;
+    width:60%;
+    text-align: center;
+}
+.experience{
+    font-family: arial;
+    text-decoration: underline;
+    border-style:ridge;
+    border-width: 5px;
+    border-color: green;
+    float:left;
+    width:30%;
+}
