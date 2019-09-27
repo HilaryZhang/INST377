@@ -1,0 +1,48 @@
+
+#name {
+    background-color: black;
+    color: yellow;
+    width:60%;
+    text-align: center;
+    margin:auto;
+  }
+#content{
+    text-align: center;
+}
+p{
+    font-weight: bold; 
+    border-style:ridge;
+    border-width: 10px;
+    border-color: yellow;
+}
+
+body{
+    background-color:papayawhip;
+}
+
+.job{
+    float:left;
+    width: 50%;
+}
+
+
+h4{
+    font-family: arial;
+    font-style: italic;
+}
+
+h3{
+    font-family: arial;
+    font-weight: bold; 
+    text-decoration-line: underline;
+    color: yellow;
+    background-color: black;
+}
+li{
+    text-align: left; 
+}
+img{
+    width: 300px; 
+    height: 200px; 
+    padding: 10px; 
+}
