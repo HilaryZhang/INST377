@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sample HTML Demonstration Page</title>
+    <style>
+      .wrapper {
+        height: 100vh;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 15px;
+        background-color: grey;
+      }
+      .head {
+        font-size: 40px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+        padding-top: 15px;
+      }
+      .interior {
+        background: pink;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      .column {
+        float: left;
+        width: 40%;
+        background: red;
+        margin-bottom: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+      }
+      .second_textbox {
+        background: lightblue;
+        width: 50%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+      .link {
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="head" id="start">
+        Sample Headline
+      </div>
+      <div class="link">
+        <a href="https://www.google.com/">anchor tag to nowhere</a>
+      </div>
+      <div class="interior">
+        hello
+      </div>
+      <div class="container">
+        <div class="column">
+          click me I'm great
+        </div>
+        <div class="column">
+          click me I'm great
+        </div>
+        <div class="second_textbox">
+          <p>
+            World #2
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
